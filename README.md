@@ -1,2 +1,8 @@
-# Portfolio
-Go https://balajee.000webhostapp.com/  for see my Portfolio
+# Portfolio 
+Link: 
+https://balajee.000webhostapp.com/
+
+Language used 
+•HTML
+•CSS
+•Javascript(it's in the html file)

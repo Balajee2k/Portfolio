@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BALAJEE-PORTFOLIO</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/677fa4fe40.js" crossorigin="anonymous"></script>
+</head>
+
+<body class="dark-theme">
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/Logo2.jpg" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio"> Portfolio</a></li>
+                    <li><a href="#Contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>   
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p class="animate-text">Web developer</p>
+                <h1>Hi, I'm <span>Balajee</span> <br> From India</h1>
+            </div>
+        </div>
+    </div>
+
+    <!-- -----------About---------- -->
+
+    <div id="about">
+        <div class="container">
+
+            <div class="row">
+                 <div class="about-col-1">
+                    <img src="images/userimage5-removebg.png" class="userimg">
+                 </div> 
+
+                    <div class="about-col-2">
+                     <h1 class="sub-title">About me</h1>
+                     <br>
+                     <p class="about">
+                        Hello, I'm Balajee, currently pursuing a B.Tech in Computer Science at SRM Kattankulathur, Chennai, Tamil Nadu. 
+
+                        My journey in the tech world has been an exciting one. I'm on my way to becoming a full-stack web developer, with a strong foundation in frontend development and a passion for advancing my skills in backend development.
+                          <br>
+                        I'm also deeply intrigued by the field of Artificial Intelligence, with a particular focus on Generative AI, supervised, and unsupervised learning. It's a fascinating area that constantly challenges me to learn and grow.
+                          <br>
+                        When it comes to programming, I'm proficient in Java and C++, and I'm continually expanding my knowledge in these languages.
+                          <br>
+                        In addition to my coding pursuits, I'm diving into Data Structures and Algorithms, solving problems, and grasping each concept step by step, making sure I have a solid grasp of the fundamentals.
+                          <br>
+                        As a multidisciplinary learner, I thrive on being an IT student who's always eager to explore new horizons and broaden my knowledge base.
+                      </p>
+
+                        <div class="tab-titles ">
+                            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                            <p class="tab-links" onclick="opentab('education')">Education</p>
+                        </div>
+
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span>Web Developer</span><br>Building websites</li>
+                                <li><span>Ai enthusiastic</span><br>Learning Ai</li>
+                            </ul>
+                        </div>
+
+                        <div class="tab-contents" id="experience">
+                            <ul>
+                                <li><span>Web Developement</span><br>From Youtube</li>
+                                <li><span>Programming language</span><br>C++ & Java</li>
+                                <li><span>Learning Ai</span><br>From Google cloud and other resources</li>
+
+                            </ul>
+                        </div>
+
+                        <div class="tab-contents" id="education">
+                            <ul>
+                                <li><span>2022-2026</span><br>Btech from SRM University Chennai</li>
+                                <li><span>2020-2022</span><br>Higher School from Gyan Bharti Bihar</li>
+                            </ul>
+                        </div>
+                 </div>
+            </div>
+        </div>
+    </div>
+
+ <!-- --------------servicessection----------------------------------- -->
+
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Development</h2>
+                    <p> "</p>
+                    <a href="https://github.com/Balajee2k">Learn More</a>
+                </div>
+
+                <div>
+                    <i class="fa-solid fa-robot"></i>
+                    <h2>AI Chatbot</h2>
+                    <p>"</p>
+                    <a href="https://github.com/Balajee2k">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+ <!-- ------------------PORTFOLIO-------------------------------------   -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/work1.jpg">
+                    <div class="layer">
+                        <h3>Personal Finance Manager Website</h3>
+                        <p> This wbesite help you to trackand manage expenses as well as
+                             give you personalise investment options</p>
+                        <a href="https://github.com/Balajee2k/personal-finance-manager/tree/c21a821a661e36900aebec1d3ee4b97d4b2cc4e4"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work2.png">
+                    <div class="layer">
+                        <h3>My Portfolio</h3>
+                        <p>Connect with me </p>
+                        <a href="https://balajee.000webhostapp.com/"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+
+                </div>
+            
+                
+            </div>
+            <a href="https://github.com/Balajee2k" class="btn" >See More</a>
+        </div>
+    </div>
+
+ <!-- ------------------------CONTACT------------------- -->
+ <div id="Contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p> <i class="fa-solid fa-envelope-open"></i> jeebalajee@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i> 7903856306</p>
+                <div class="social-icons">
+                    <a href="https://twitter.com/Balajee2k"><i class="fa-brands fa-square-twitter"></i></a>
+                    <a href="https://www.linkedin.com/in/balajee-%E3%85%A4-832846264/"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://github.com/Balajee2k"><i class="fa-brands fa-github"></i></i></a>
+                    <a href="https://instagram.com/balajee149?utm_source=qr&igshid=NGExMmI2YTkyZg%3D%3D"><i class="fa-brands fa-instagram"></i></a>
+                </div>
+                <a href="images/Resume-Balajee.pdf" download class="btn btn2">Download CV</a>
+
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2" >Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+ </div>
+
+ <footer>
+    <div class="copyright">
+    <p>Copyright © Balajee. Made wtih by Balajee</p>
+    </div>
+ </footer>
+
+    <script>
+
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+
+    <script>
+        var sidemeu = document.getElementById("sidemenu");
+        function openmenu()
+        {
+         sidemeu.style.right = "0";
+        }
+        function closemenu ()
+        {
+         sidemeu.style.right = "-200px";
+        }
+   </script>
+
+   <script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbxMkL5klvBQZVaTEYyWtgWfV_Ei6QEfvIPwR4XEIL8YdtiSVV0WOV1zP5_U4tc9t3Fs/exec';
+    const form = document.forms['submit-to-google-sheet'];
+    const msg = document.getElementById("msg");
+
+    form.addEventListener('submit', e => {
+        e.preventDefault();
+        fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+            .then(response => response.json()) // Parse the response as JSON
+            .then(data => {
+                if (data.result === "success") {
+                    msg.innerHTML = "Message sent successfully";
+                    setTimeout(function () {
+                        msg.innerHTML = "";
+                    }, 5000);
+                    form.reset();
+                } else {
+                    msg.innerHTML = "Error sending message. Please try again later.";
+                }
+            })
+            .catch(error => {
+                console.error('Error!', error.message);
+                msg.innerHTML = "Error sending message. Please try again later.";
+            });
+    });
+</script>
+
+</body>
+</html>
